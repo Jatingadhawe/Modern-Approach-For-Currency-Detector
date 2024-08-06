@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="20dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/cashlogo"
+                android:layout_height="200dp"></ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:foregroundGravity="fill"
+                android:text="About Us"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="30dp"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:foregroundGravity="fill"
+                android:text="In the run of our life, currency plays the most important role. Identifying currency denomination is sometimes the most difficult thing people could find.
+Since we are living in the computer world, everything could be possible with the
+machine \n \n This is a application can be used for identifying the
+denomination of the currency depending on the trained currency images. We are
+using six denominations of the Indian currency which are captured in all
+orientations for testing and training datasets"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"></TextView>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
