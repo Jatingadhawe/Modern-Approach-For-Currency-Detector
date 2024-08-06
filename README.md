@@ -1,1 +1,1 @@
-# Modern-Approach-For-Currency-Detector
+# Cashify_project
